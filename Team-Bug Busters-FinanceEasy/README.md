@@ -7,4 +7,6 @@ The Data Structures and Algorithms used are:
 Hash Maps,Binary Search Sliding Window,Greedy Algorithm,Prefix Sum,Kadane's algorithm
 
 
+Video Link:
+https://drive.google.com/file/d/1BgGgif9KXEi3apAFD7AXO7OUKz7hh4fD/view?usp=drivesdk
 
