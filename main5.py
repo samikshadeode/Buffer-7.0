@@ -471,7 +471,7 @@ def goals():
 
       
       with use_scope('output_area', clear=True):
-         put_markdown(f"## 🎯 Goal Tracking: {goal}")
+         put_markdown(f"## Goal Tracking: {goal}")
          put_text(f"You have to save: {savings_per_month:.2f} per month to reach your target.")
          put_row([
             put_column([
@@ -514,7 +514,7 @@ def progress():
       #show  a progress bar
       global total_saved
       with use_scope('progress_area', clear=True):
-        put_markdown(f"### 📈 Progress Tracker")
+        put_markdown(f"### Progress Tracker")
         put_processbar('bar1')
         for i in range(1,(1+ total_saved)):
             set_progressbar('bar1',i/savings_amt)
@@ -711,7 +711,7 @@ def most_expensive_day_streak():
 
     
      with use_scope('output_area', clear=True):
-        put_markdown("## 📈 Dynamic Analysis: Max Profit Streak")
+        put_markdown("## Dynamic Analysis: Max Profit Streak")
         put_text(f"Your highest net-gain streak was: Rs {max_sum} and it was a {streak_days}days streak")
        
                
